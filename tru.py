@@ -3,8 +3,12 @@ from cong import tong
 
 def hieu(a, b):
     return a - b
+
+
+
 a = float(input("Nhập số a: "))
 b = float(input("Nhập số b: "))
 c = hieu(a, b)
 print("Hiệu của a và b là:", c)
-print("Tổng của a và b là:", tong(a, b))
+print("Tổng của a và b là:", tong(a, b)) # fix bug1
+# bug1: print("Tổng của a và b là:", c)
